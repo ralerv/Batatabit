@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+:root {
+    /* Font size*/
+    --f-light: 30rem;
+    --f-normal: 50rem;
+    --f-bold: 70rem;
+    /* Colors*/
+    --c-primary:#f7931a;
+    --c-primary-soft:##FFE9D4;
+    --c-secondary: #1A9AF7;
+    --c-secondary-soft:#E7F5FF;
+    --c-warm-dark:#201E1C;
+    --c-dark: #282623;
+    --c-grey: #bababa;
+    --c-off-white: #faf8f7;
+    --c-just-white: #fff;
+}
