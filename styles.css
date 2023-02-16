@@ -11,10 +11,6 @@ html {
 }
 
 :root {
-    /* Font size*/
-    --f-light: 30rem;
-    --f-normal: 50rem;
-    --f-bold: 70rem;
     /* Colors*/
     --c-primary:#f7931a;
     --c-primary-soft: #FFE9D4;
@@ -37,6 +33,27 @@ header {
     min-width: 280px;
     height: 33.4rem;
     text-align: center;
+    background: linear-gradient(232deg, var(--c-warm-dark), var(--c-primary));
+    background-size: 400% 400%;
+    -webkit-animation: bgAnimateBitcoin 20s ease infinite;
+    -moz-animation: bgAnimateBitcoin 20s ease infinite;
+    animation: bgAnimateBitcoin 20s ease infinite;
+}
+
+@-webkit-keyframes bgAnimateBitcoin {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes bgAnimateBitcoin {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes bgAnimateBitcoin {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .header__image-container {
@@ -51,4 +68,19 @@ header {
     max-width: 90rem;
     height: 21.8rem;
     margin-top: 4rem;
+}
+
+.header__title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--c-just-white);
+}
+
+.header__title-container p{
+    margin-top: 2.4rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.8rem;
+    color: var(--c-primary-soft);
 }
