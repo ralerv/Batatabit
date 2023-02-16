@@ -17,12 +17,38 @@ html {
     --f-bold: 70rem;
     /* Colors*/
     --c-primary:#f7931a;
-    --c-primary-soft:##FFE9D4;
+    --c-primary-soft: #FFE9D4;
     --c-secondary: #1A9AF7;
-    --c-secondary-soft:#E7F5FF;
+    --c-secondary-soft: #E7F5FF;
     --c-warm-dark:#201E1C;
     --c-dark: #282623;
     --c-grey: #bababa;
     --c-off-white: #faf8f7;
     --c-just-white: #fff;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 280px;
+    height: 33.4rem;
+    text-align: center;
+}
+
+.header__image-container {
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 6rem;
+}
+
+.header__title-container {
+    width: 90%;
+    min-width: 23rem;
+    max-width: 90rem;
+    height: 21.8rem;
+    margin-top: 4rem;
 }
