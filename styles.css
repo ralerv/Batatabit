@@ -285,3 +285,110 @@ main {
     line-height: 1.936rem;
     color: var(--c-warm-dark);
 }
+
+/* Main Benefits*/
+
+.main__benefits{
+    position: relative;
+    width: 100%;
+    min-width: 230px;
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: var(--c-warm-dark);
+    font-family: "DM Sans", sans-serif;
+}
+
+.main__benefits__img {
+    position: absolute;
+    transform: translateY(-50%);
+    top:0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 4rem;
+    height: 2.4rem;
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/batata.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main__benefits__title {
+    width: 90%;
+    min-width: 230px;
+    height: auto;
+    margin: 5rem auto 0;
+}
+
+.main__benefits__title h2{
+    margin-bottom: 2.4rem;
+}
+
+.main__benefits__title h2, .main__benefits__item__card-title{
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--c-just-white);
+}
+
+.main__benefits__item__card{
+    width: 90%;
+    min-width: 230px;
+    max-width: 400px;
+    margin: 1.6rem auto;
+    padding: 1.5rem;
+    background-color: var(--c-dark);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.main__benefits__item__card-title{
+    text-align: start;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.main__benefits__title p{
+    margin-bottom: 3.2rem;
+}
+
+.main__benefits__title p, .main__benefits__item__card-body{
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: normal;
+    color: #808080;
+}
+
+.main__benefits__item__card-body{
+    text-align: start;
+}
+
+.card-img-clock{
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/clock.svg");
+}
+
+.card-img-eye{
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/eye.svg");
+}
+
+.card-img-dollar{
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/dollar-sign.svg");
+}
+
+.card-img-check{
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/check-circle.svg");
+}
+
+.main__benefits__item__card-img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 1rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
