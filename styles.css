@@ -392,3 +392,24 @@ main {
     background-repeat: no-repeat;
 }
 
+/* Main baby*/
+
+.main__background-img{
+    width: 100%;
+    min-width: 280px;
+    height: 60vh;
+    background-image: url("https://bnz07pap001files.storage.live.com/y4mhKMIR-YOZNaXpVMF7fgHTbbd3qeTUm5WuOJWB0ckR_i7Qrjnj5RDfQRk9b18HvjB83lyRtHVAhi0SV6nCIqWJA9S8rrZZtMMmC5KIt9uALj6wJG_eLaB3AxsKIcNV0S9ixnvavO5adQOqDeAxKblmqbjbzk2kESsrvMLJcmOZWMSKYsbiJ9ZBm7AcIv06vja?width=1024&height=767&cropmode=none");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__background-img h2{
+    padding-top: 6.4rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--c-just-white);
+}
