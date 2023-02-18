@@ -11,6 +11,8 @@ html {
 }
 
 :root {
+    /*Values*/
+    --v-radius-table: 1.5rem;
     /* Colors*/
     --c-primary:#f7931a;
     --c-primary-soft: #FFE9D4;
@@ -124,14 +126,16 @@ header {
 main {
     width: 100%;
     height: auto;
-    background-color: var(--c-off-white);
 }
+
+/* Exchange section*/
 
 .main__exchange-container {
     width: 100%;
     height: auto;
     padding: 4rem 0;
     text-align: center;
+    background-color: var(--c-off-white);
 }
 
 .main__exchange-container .exchange-background{
@@ -146,9 +150,9 @@ main {
 
 .main__exchange-title {
     width: 90%;
-    min-height: 23rem;
     max-width: 90rem;
     margin: 0 auto;
+    margin-bottom: 4.8rem;
 }
 
 .main__exchange-title h2{
@@ -160,8 +164,84 @@ main {
 }
 
 .main__exchange-title p{
-    margin-bottom: 4.8rem;
     font-size: 1.4rem;
     line-height: 1.8rem;
     color: var(--c-grey-2);
+}
+
+/* Exchange tables*/
+
+.main__exchange-tables {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main__exchange-currency {
+    height: 36rem;
+    min-width: 190px;
+    max-width: 500px;
+}
+
+.main__exchange-currency-title, .main__exchange-comissions-title {
+    margin-bottom: 1.2rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.344rem;
+    color: var(--c-primary);
+}
+
+.main__exchange-comissions-title{
+    color: var(--c-secondary);
+}
+
+.main__exchange-table-container {
+    width: 90%;
+    height: 25rem;
+    min-width: 190px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 1.6rem; 
+}
+
+.main__exchange-table-container table{
+    width: 100%;
+    height: 100%;
+}
+
+.main__exchange-table-container table td{
+    width: 50%;
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.936rem;
+    color: #B5B0AC;
+    background-color: var(--c-just-white);
+}
+    /*Radius border table*/
+.main__exchange-table-data--top-left {
+    border-top-left-radius: var(--v-radius-table);
+}
+
+.main__exchange-table-data--bottom-left {
+    border-bottom-left-radius: var(--v-radius-table);
+}
+
+.main__exchange-table-data--top-right {
+    border-top-right-radius: var(--v-radius-table);
+}
+
+.main__exchange-table-data--bottom-right {
+    border-bottom-right-radius: var(--v-radius-table);
+}
+
+.main__exchange-update-currency, .main__exchange-update-comissions {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.936rem;
+    color: var(--c-warm-dark);
+    background-color: var(--c-primary-soft);
+}
+
+.main__exchange-update-comissions {
+    background-color: var(--c-secondary-soft);
 }
