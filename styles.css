@@ -451,7 +451,7 @@ main {
 
 .main__plans__card {
     position: relative;
-    width: 70%;
+    width: 60%;
     min-width: 180px;
     max-width: 320px;
     height: 250px;
@@ -507,4 +507,28 @@ main {
     font-size: 1.2rem;
     line-height: 1.452rem;
     color: var(--c-grey-2);
+}
+
+.main__plans__card__info__choose-button {
+    padding: 16px;
+    border: 2px solid var(--c-primary);
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.823rem;
+    background-color: var(--c-off-white);
+    color: var(--c-warm-dark);
+}
+
+.main__plans__card__info__choose-button span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background-image: url("https://raw.githubusercontent.com/degranda/batata-bit/955b37d9972123343010b48911a0cb29dc3b4d05/assets/icons/orange-right-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: text-bottom;
 }
