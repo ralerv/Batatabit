@@ -448,3 +448,63 @@ main {
     font-weight: normal;
     color: var(--c-grey-2);
 }
+
+.main__plans__card {
+    position: relative;
+    width: 70%;
+    min-width: 180px;
+    max-width: 320px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-color: var(--c-just-white);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.main__plans__card__recommend {
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+    top: 0;
+    transform: translateY(-50%);
+    background-color: var(--c-primary);
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--c-just-white);
+}
+
+.main__plans__card__info__title {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--c-dark);
+}
+
+.main__plans__card__info__price {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 5.2rem;
+    color: var(--c-dark);
+}
+
+.main__plans__card__info__price sup{
+    display: inline-block;
+    vertical-align: text-top;
+    transform: translateY(50%);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.main__plans__card__info__saving {
+    margin: 16px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.452rem;
+    color: var(--c-grey-2);
+}
