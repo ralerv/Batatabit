@@ -8,7 +8,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 970px;
+    max-width: 970px;
 }
 
 .main__plans__slider {
