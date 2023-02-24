@@ -1,0 +1,14 @@
+.main__exchange-tables {
+    justify-content: center;
+    flex-direction: row;
+}
+
+.main__benefits__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__plans__slider {
+    justify-content: center;
+}
+
